@@ -75,9 +75,9 @@ class CounterView {
 }
 
 class CounterController {
-    constructor(model, view) {
+    constructor(model, v) {
         this.model = model;
-        this.view = view;
+        this.view = v;
 
         this.view.setHandlers({
             onDecrement: () => {
