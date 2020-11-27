@@ -8,6 +8,7 @@
 class CounterModel {
     value = 0;
 
+
     subscribers = [];
 
     increment() {
