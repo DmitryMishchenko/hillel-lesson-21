@@ -7,6 +7,7 @@
 
 class CounterModel {
     value = 0;
+
     subscribers = [];
 
     increment() {
@@ -62,7 +63,7 @@ class CounterView {
                 this.handlers.onDecrement();
             }
         }
-    }
+    };
 
     render() {
         this.container.innerHTML = `
